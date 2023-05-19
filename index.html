@@ -1,14 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CafeDeAltura</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <nav id="navbar">
+
+        <section>               <!--This is the name-->
+            <div>
+                <a href="index.html">cafedealtura.com</a>
+            </div>
+            <div>
+                <img src="" alt="Icono cafe">
+            </div>
+        </section>
+        <section>                   <!-- all pages-->
+            <div>
+                <a href="">Tienda</a>
+            </div>
+            <div>
+                <a href="">Suscripciones</a>
+            </div>
+            <div>
+                <a href="">Para empresas</a>
+            </div>
+            <div>
+                <a href="">Sobre Nosotros</a>
+            </div>
+            <div>
+                <a href="">Contacto</a>
+            </div>
+        </section>
+        <section>               <!--Telephone Number-->
+            <div>
+                <img src="" alt="Logo de teléfono">
+                <a href="tel:+34919490518">+34 919 49 05 18</a>
+            </div>
+            <div>
+                <input type="button" value="Iniciar sesión" id="signin">
+            </div>
+        </section>
+        <section>                   <!--Shop icon-->
+            <div>
+                <a href="">
+                    <input type="image" src="" alt="logo de la cesta">
+                </a>
+            </div>
+            <p id="cuentaProductos"></p>
+        </section>
+    </nav>
+    <header id="head">
+        <section>
+            <div id="sectittle">
+                <article>
+                    <h3>De la planta a tu taza</h3>
+                    <h1>El mejor de café del, ahora en tu casa</h1>
+                    <p>Trabajamos con agricultores de todo el mundo para seleccionar los mejores granos de café y que
+                        puedas viajar desde la comodidad de tu hogar.</p>
+                    <div>
+                        <input type="button" value="Descubrir Origenes">
+                        <input type="button" value="Comprar café">
+                    </div>
+                </article>
+                <aside>
+                    <img src="" alt="Planta de café" id="plantadecafe-img">
+                </aside>
+            </div>
+        </section>
+    </header>
+
 </body>
-<script src="main.js"></script>
+<div id="boxes">
+    <h2>Café con las condiciones</h2>
+    <section>
+        <div class="Boxorder">
+            <div><img src="" alt="">logo verificated</div>
+            <h3>Recibe tu pedido sin preocuparte</h3>
+            <p>Tienes cosas mas importantes en la cabeza, por eso con nuestra suscripcion de café, nunca te quedarás sin
+                tu taza de la mañana</p>
+        </div>
+        <div class="boxdelivery">
+            <div> <img src="" alt="logo lorry "></div>
+            <h3>Envio en 24/48h</h3>
+            <p>Pide tu café antes de las 12h y lo recibirás al dia siguiente.</p>
+        </div>
+        <div class="boxdiscounts"></div>
+        <div> <img src="" alt="logo gift"></div>
+        <h3>Descuentos y beneficios</h3>
+        <p>Cada dos meses, te regalamos una bolsa de un nuevo origen sorpresa, para que lo descubras junto a nosotros.
+        </p>
+    </section>
+</div>
+<main id="coffeabags">
+    <section>
+        <h2 id="New features">Novedades</h2>
+        <div id="coffeaPlace">
+            <article>
+                <img src="" alt="bolsa costa rica">
+                <div>
+                    <input type="button" value="Costa Rica Tarrazú">
+                    <p>9,00 €</p>
+                </div>
+                <input class="bags" type="button" value="Añadir">
+            </article>
+            <article>
+                <img src="" alt="bolsa colombia">
+                <div>
+                    <input type="button" value="Colombia Los Naranjos">
+                    <p>9,00 €</p>
+                </div>
+                <input class="bags" type="button" value="Añadir">
+            </article>
+            <article>
+                <img src="" alt="bolsa laos">
+                <div>
+                    <input type="button" value="Laos Amanecer">
+                    <p>9,00 €</p>
+                </div>
+                <input class="bags" type="button" value="Añadir">
+            </article>
+            <article>
+                <img src="" alt="bolsa etiopia">
+                <div>
+                    <input type="button" value="Etiopía Yrgacheff">
+                    <p>9,00 €</p>
+                </div>
+                <input class="bags" type="button" value="Añadir">
+            </article>
+        </div>
+        <article><a href="">Ver todos</a>
+            <img src="" alt="Arrow">
+        </article>
+    </section>
+</main>
+<article id="faq">
+    <h2>Preguntas frecuentes</h2>
+    <main>
+        <article>
+            <section>
+                <h3>¿Cómo hago el pedido?</h3>
+                <img id="arrow1" class="flechaFaq" src="" alt="abierto">
+                 <input type="button" value="^">
+            </section>
+            <div class="FAQtext" id="faq1">
+                <div class="separador"></div>
+                <p>Selecciona el café que desees probar y completa el proceso de compra. Si lo prefieres, te
+                    preguntaremos cada cuánto quieres que te lo mandemos a casa y así nunca te quedarás sin café.</p>
+            </div>
+        </article>
+        <article>
+            <section>
+                <h3>¿Por qué los precios son tan bajos?</h3>
+                <img id="arrow2" class="flechaFaq" src="" alt="abierto">
+                 <input type="button" value="^">
+            </section>
+        
+            <div class="FAQtext" id="faq2">
+                <div class="separador"></div>
+                <p>Viajamos constantemente para encontrar los mejores granos y a los agricultores más exigentes. Si
+                    podemos ofrecerte estos precios es porque tratamos directamente con los productores de café, sin
+                    intermediarios. Así obtenemos el mejor precio para ti y la persona que está detrás de los granos de
+                    café recibe el mayor beneficio posible. </p>
+            </div>
+        </article>
+        <article>
+            <section>
+                <h3>¿Es posible enviar café a mi oficina?</h3>
+                <img id="arrow3" class="flechaFaq" src="" alt="cerrado">
+                 <input type="button" value="^">
+            </section>
+            <div class="FAQtext" id="faq3">
+                <div class="separador"></div>
+                <p></p>
+            </div>
+        </article>
+    </main>
+</article>
+<article>
+    <a href="">Ver todos </a>
+    <img src="" alt="flecha">
+</article>
+</article>
+<article id="info">
+    <div>
+        <section>
+            <h2>Pruébalo en nuestro coffee shop</h2>
+            <p>Visita nuestra cafetería en el centro de la ciudad para probar los granos de café antes de hacer tu
+                pedido y llévate un descuento</p>
+            <article>
+                <a href="">Como llegar</a>
+                <img src="" alt="flecha">
+            </article>
+        </section>
+        <aside>
+            <img src="" alt="foto del lugar">
+        </aside>
+    </div>
+</article>
+<section id="formPage">
+    <article>                   <!--lado izquierdo-->
+        <div>
+            <header>
+                <h3>Entra en contacto con nosotros</h3>
+                <p>Si tienes dudas, ponte en contacto con nosotros a través del formulario y te responderemos lo antes
+                    posible.</p>
+            </header>
+            <main>
+                <p>También puedes ponerte en contacto con nostros en nuestra dirección o a través del teléfono de la
+                    tienda.</p>
+                <p>742 Evergreen Terrace<br>Springfield, OR 12345</p>
+                <div>
+                    <p><img src="" alt="telefoncito"> +1 (555) 123-4567</p>
+                    <p><img src="" alt="logo correo"> support@example.com</p>
+                </div>
+                <p>
+                    ¿Buscas un trabajo?
+                    <a href="">Ver nuestras ofertas.</a>
+                </p>
+            </main>
+        </div>
+    </article>
+    <aside>                     <!--Formulary-->
+        <form id="submit">
+            <div class="form-field">
+                <label for="username">Nombre completo</label>
+                <input type="text" id="username" name="username" required autocomplete="off"
+                    placeholder="Nombre Completo">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="tlf">Teléfono</label>
+                <div>
+                    <select name="pais" id="pais">
+                        <option value="US">US</option>
+                        <option value="ESP">ESP</option>
+                    </select>
+                    <input type="number" id="tlf" name="tlf" min="0" minlength="9" maxlength="9" list="pais" required
+                        autocomplete="off">
+                </div>
+                <small></small>
+            </div>
+            <div class="form-field">
+                <p></p>
+                <textarea name="opinion" id="opinion" cols="30" rows="10"
+                    placeholder="¿En qué podemos ayudarte?"></textarea>
+                <small></small>
+            </div>
+            <div>
+                <input type="checkbox" name="politicas" id="politicas">
+                <p>
+                    Acepto la <a href="">Política de privacidad</a> y los <a href="">Términos y condiciones</a>
+                </p>
+            </div class="form-field">
+            <button type="submit">Enviar</button>
+        </form>
+    </aside>
+</section>
+<footer>
+    <div>
+        <section>               <!-- 1) Nombre-->
+            <div>
+                <a href="index.html">cafedealtura.com</a>
+            </div>
+            <div>
+                <img src="" alt="simbolo cafe">
+            </div>
+        </section>
+        <article>
+            <aside>
+                <p>Te ayudamos en</p>
+                <div>
+                    <img src="" alt="">
+                    <p>+34 919 49 05 18</p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>hola@cafedealtura.com</p>
+                </div>
+            </aside>
+            <aside>
+                <section>
+                    <a href="">Tienda</a>
+                    <a href="">Suscripción</a>
+                    <a href="">Para empresas</a>
+                    <a href="">Sobre nosotros</a>
+                    <a href="">Contacto</a>
+                </section>
+            </aside>
+            <aside>
+                <section>
+                    <a href="">Política de privacidad</a>
+                    <a href="">Política de cookies</a>
+                    <a href="">Términos y condiciones</a>
+                </section>
+            </aside>
+        </article>
+    </div>
+</footer>
+<div>
+    <p>Todos los derechos reservados - Café de Altura SL - 2022</p>
+</div>
+</body>
+
+</html>
+
 </html>
